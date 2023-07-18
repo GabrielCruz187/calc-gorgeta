@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de gorgeta</title>
+</head>
+<body>
+    <div>
+        <h1>Calculadora de gorgetas</h1>
+    </div>
+    <form>
+        <label for="preço">
+            <p>
+                Quanto ficou a conta?
+            </p>
+        </label>
+        <p>
+         R$ <input type="number" placeholder="100" name="preço">
+        </p>
+        <label for="nota">
+            <p>
+                Como foi seu atendimento?
+            </p>
+        </label>
+        <p>
+            <select name="service" id="">
+                <option disabled selected value="">--Escolha uma opção</option>
+                <option value="0.3">30% - incrível</option>
+                <option value="0.2">20% - bom</option>
+                <option value="0.15">15% - aceitável</option>
+                <option value="0.1">10%- ruim</option>
+                <option value="0.05">0.5 - péssimo</option>
+
+            </select>
+            
+        </p>
+        <label for="people">
+            <p>
+                Quantas pessoas vão dividir a conta?
+            </p>
+        </label>
+        <p>
+            <input type="number" placeholder="1" name="people" id="people"> pessoa(s)
+        </p>
+        <button>Calcular!</button>
+    </form>
+        
+        
+
+    
+</body>
+</html>
