@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de gorgeta</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
     <div>
-        <h1>Calculadora de gorgetas</h1>
+        <h1 class="title">Calculadora de gorgetas</h1>
     </div>
-    <form>
+    <form class="tipsform">
         <label for="preço">
             <p>
                 Quanto ficou a conta?
             </p>
         </label>
         <p>
-         R$ <input type="number" placeholder="100" name="preço">
+         R$ <input type="number" placeholder="100" name="preço" class="forminput">
         </p>
         <label for="nota">
             <p>
@@ -24,7 +26,7 @@
             </p>
         </label>
         <p>
-            <select name="service" id="">
+            <select name="service" id="nota" class="formselect">
                 <option disabled selected value="">--Escolha uma opção</option>
                 <option value="0.3">30% - incrível</option>
                 <option value="0.2">20% - bom</option>
@@ -41,10 +43,12 @@
             </p>
         </label>
         <p>
-            <input type="number" placeholder="1" name="people" id="people"> pessoa(s)
+            <input type="number" placeholder="1" name="people" id="people" class="forminput"> pessoa(s)
         </p>
-        <button>Calcular!</button>
+        <button class="formsubmit">Calcular!</button>
     </form>
+    </div>
+     
         
         
 
